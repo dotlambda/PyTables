@@ -86,7 +86,7 @@ If you don't, fetch and install them before proceeding.
 .. _py-cpuinfo: https://github.com/workhorsy/py-cpuinfo
 .. _Cython: http://www.cython.org
 .. _c-blosc: https://github.com/Blosc/c-blosc
-.. _python-blosc2: https://github.com/Blosc/python-blosc2
+.. _python-blosc2: https:///github.com/Blosc/python-blosc2
 .. _c-blosc2: https://github.com/Blosc/c-blosc2
 
 Compile and install these packages (but see :ref:`prerequisitesBinInst` for
@@ -187,7 +187,7 @@ the relevant header files and libraries.
 
       $ python3 setup.py build --use-pkgconfig=FALSE
 
-    or use the :envvar:`USE-PKGCONFIG` environment variable::
+    or use the :envvar:`USE_PKGCONFIG` environment variable::
 
       $ env USE_PKGCONFIG=FALSE python3 setup.py build
 
